@@ -1,0 +1,65 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 0;
+  margin:0;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+  height: 100%;
+}
+
+.right {
+  width: 75%;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img{
+  width: 600px;
+  height: 730px;
+}
+.inputSty {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 10px 20px;
+  margin-left:5%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+}
+.button {
+  width: 50%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  margin-left:5%;
+  cursor: pointer;
+}
+#toggler{
+	position: absolute;
+	right: 30px;
+	top: 205px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}

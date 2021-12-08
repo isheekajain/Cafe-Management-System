@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	text-align: center;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 150px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+} 
+.design{
+	font-family: 'Dancing Script', cursive;
+	font-size: 1.5rem;
+} 
+ 
+ 
+    body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+  
+}
+
+/*footer*/
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#ccc;
+   color:black;
+   text-align: center;
+}
+
+
+
+
+
+.input-style {
+  width: 90%;
+  padding: 12px 20px;
+  margin-left:5%;
+  box-sizing: border-box;
+  border: none;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+}
+
+input[type=text]:focus, textarea:focus,button:focus{
+  outline: 4px solid orange;
+  background-color:rgb(224, 255, 219);     /* oranges! yey */
+}
+
+.button {
+  background-color: aqua;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30%;
+   border-radius: 25px;
+}
+
+.button:hover {
+  background-color: pink;
+  color: black;
+}
+
+hr
+{
+	width: 100%
+}
+h3
+{
+	text-align: center;
+	color: black;
+}
+.heading{
+	text-align: right;
+	color: black;
+}
+.alert
+{
+	color:yellow;
+}
+
+.profile-style
+{
+	border-style: dotted;
+	
+}
+
+
+.left-div
+{
+	width: 33.33%;
+	display:inline-block;
+}
+
+.right-div
+{
+	float:right;
+	width: 33.33%;
+	display:inline-block;
+}
+.right-div-right
+{
+	float:right;
+	width: 33.33%;
+	display:inline-block;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: white;
+  color: black;
+}
