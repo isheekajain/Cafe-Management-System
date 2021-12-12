@@ -25,11 +25,11 @@ We created a website to manage a Cafe Shop where you can perform following funct
 - Add to cart 
 - Remove from cart 
 - Purchase the items in your cart.
-- <img width="960" alt="Menu" src="https://user-images.githubusercontent.com/90750817/145723031-5024301d-7960-48ce-9305-111fc9ffb9cf.png">
+  <img width="960" alt="Menu" src="https://user-images.githubusercontent.com/90750817/145723031-5024301d-7960-48ce-9305-111fc9ffb9cf.png">
 - Cart
-- <img width="960" alt="Cart" src="https://user-images.githubusercontent.com/90750817/145723126-6f6245ce-af20-4118-8bb5-0b448ea35c3c.png">
+  <img width="960" alt="Cart" src="https://user-images.githubusercontent.com/90750817/145723126-6f6245ce-af20-4118-8bb5-0b448ea35c3c.png">
 - Bill
-- <img width="960" alt="Bill" src="https://user-images.githubusercontent.com/90750817/145723156-a2252c75-d53d-4a0d-ba31-3b39645d8b60.png">
+  <img width="960" alt="Bill" src="https://user-images.githubusercontent.com/90750817/145723156-a2252c75-d53d-4a0d-ba31-3b39645d8b60.png">
 
 
 
